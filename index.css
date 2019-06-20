@@ -1,0 +1,197 @@
+.background {
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/background.png);
+    background-blend-mode: color #00000000;
+    background-position: center;
+    background-size: auto;
+}
+
+.jumbotron {
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 310px;
+}
+
+.solid-bg {
+    background-image: ;
+}
+
+nav.shift ul li a {
+    position: relative;
+    z-index: 1;
+}
+
+nav.shift ul li a:hover {
+    color: #91640f;
+}
+
+nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: ".";
+    color: transparent;
+    background: #f1c40f;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+@-webkit-keyframes shift {
+    0% {
+        width: 0%;
+        height: 1px;
+    }
+    50% {
+        width: 100%;
+        height: 1px;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        background: #333;
+    }
+}
+
+.background-picture {
+    background-image: url(./assets/images/background.jpg);
+}
+
+.onepixel {
+    border-top: 5px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 0px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.bg-color {
+    background-color: #07d8ab;
+}
+
+.font-type {
+    font-family: "Patua One", cursive;
+    text-align: right;
+}
+
+.font-type-2 {
+    font-family: "Fredoka One", cursive;
+}
+
+.height {
+    height: 100px;
+}
+
+.h4,
+h4 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-1 {
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+.text-2 {
+    font-size: 15px;
+}
+
+.btn-color {
+    background: rgb(162, 231, 0);
+    -webkit-text-fill-color: #000000;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    margin: 20px;
+}
+
+.text-border {
+    -webkit-text-stroke: 2px #ffffff;
+}
+
+.text-border-2 {
+    -webkit-text-stroke: 0px #ffffff;
+}
+
+.stat div {
+    width: 170px;
+    border: 4px solid green;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-size: 28px;
+    padding: 10px;
+}
+
+@media (min-width: 768px) .mt-md-5,
+.my-md-5 {
+    margin-top: 0rem !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.mb-2,
+.my-2 bg-color {
+    margin-bottom: -3.5rem !important;
+}
+
+.footer-1 {
+    background-color: #25799D;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.footer-2 {
+    text-align: center;
+    background-color: #343a40;
+    font-family: 'Fredoka One', cursive;
+    padding: 5px;
+}
+
+.footer footer {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media footer (min-width: 768px) .pt-md-5,
+.py-md-5 {
+    padding-top: 0rem!important;
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+
+    } */
