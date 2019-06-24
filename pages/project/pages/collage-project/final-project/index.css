@@ -52,38 +52,6 @@ nav.shift ul li a:hover:after {
     }
 }
 
-
-/* footer content */
-
-.footer-1 {
-    background-color: #25799D;
-    padding: 25px;
-    display: flex;
-    justify-content: center;
-}
-
-.padding {
-    padding: 15px;
-}
-
-.footer-2 {
-    text-align: center;
-    background-color: #343a40;
-    font-family: 'Fredoka One', cursive;
-    padding: 5px;
-    -webkit-text-fill-color: #000000;
-}
-
-.footer footer {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-}
-
-@media footer (min-width: 768px) .pt-md-5,
-.py-md-5 {
-    padding-top: 0rem!important;
-}
-
 .jumbotron {
     text-align: center;
     -webkit-text-fill-color: #000000;
@@ -117,8 +85,52 @@ nav.shift ul li a:hover:after {
     color: #212222!important;
 }
 
+element.style {
+    text-align: -webkit-center;
+}
+
 .center-align {
     text-align: center;
+}
+
+
+/* footer content */
+
+.footer-1 {
+    background-color: #25799D;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.footer-2 {
+    text-align: center;
+    background-color: #343a40;
+    font-family: 'Fredoka One', cursive;
+    padding: 5px;
+    -webkit-text-fill-color: #000000;
+}
+
+.footer footer {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media footer (min-width: 768px) .pt-md-5,
+.py-md-5 {
+    padding-top: 0rem!important;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 50px black;
+}
+
+.font-color {
+    color: black;
 }
 
 .monas-icon {
