@@ -85,7 +85,11 @@ nav.shift ul li a:hover:after {
 }
 
 .font-color-2 {
-    -webkit-text-fill-color: rgb(66, 202, 66);
+    -webkit-text-fill-color: #f05147;
+}
+
+.font-color-2:hover {
+    -webkit-text-fill-color: #fdfbfb;
 }
 
 .onepixel {
@@ -175,6 +179,11 @@ h4 {
     border-radius: 40px;
     font-size: 28px;
     padding: 10px;
+}
+
+.stat:hover {
+    border: 4px solid #fdfbfb;
+    background-color: #f05147;
 }
 
 @media (min-width: 768px) .mt-md-5,
